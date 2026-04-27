@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-const photo="image(4).png;
+const photo="image(4).jpg;
 const skills = [
   { name: "HTML5", icon: "🌐", level: 92 },
   { name: "CSS / Tailwind", icon: "🎨", level: 88 },
@@ -37,7 +37,7 @@ const projects = [
  
 const education = [
   {
-    year: "2025 (Expected)",
+    year: "2026",
     title: "B.Tech",
     place: "KCC Institute of Technology & Management",
     grade: "8.0 CGPA",
@@ -161,7 +161,7 @@ function HeroSection() {
           animation: "popIn 0.8s cubic-bezier(0.34,1.56,0.64,1) both",
         }}>
           <img
-            src={`data:image/jpeg;base64,${PHOTO_B64}`}
+            src={`data:image/jpeg;base64,${photo}`}
             alt="Sheza Kareem"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
